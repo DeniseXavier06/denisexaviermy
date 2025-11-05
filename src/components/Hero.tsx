@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Mail, Linkedin, Github, FileText } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "@/assets/denise-photo.jpg";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {

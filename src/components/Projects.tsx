@@ -6,6 +6,32 @@ const Projects = () => {
   const projects = [
     {
       icon: Database,
+      title: "Portal de Financiamento Externo FPE",
+      client: "Setor Público",
+      description: "Avaliar e apoiar a viabilidade de programas e projetos do setor público que contem com financiamento externo proveniente de organismos internacionais ou agências estrangeiras.",
+      achievements: [
+        "Gestão completa do ciclo de desenvolvimento do produto",
+        "Integração com organismos internacionais e agências estrangeiras",
+        "Facilitação de cerimônias ágeis e gestão de backlog",
+        "Análise de viabilidade de programas e projetos estratégicos"
+      ],
+      technologies: ["Scrum", "Product Owner", "BPMN", "Jira", "Azure DevOps"]
+    },
+    {
+      icon: Rocket,
+      title: "API Compras",
+      client: "Governo Federal",
+      description: "Disponibilizar, de forma integrada e padronizada, informações e serviços relacionados aos processos de compras públicas, promovendo transparência, automação e eficiência nas contratações governamentais.",
+      achievements: [
+        "Integração padronizada de processos de compras públicas",
+        "Automação de contratações governamentais",
+        "Promoção de transparência nos processos públicos",
+        "Gestão ágil com foco em eficiência operacional"
+      ],
+      technologies: ["Scrum Master", "API Design", "Jira", "GitLab", "Integrations"]
+    },
+    {
+      icon: Database,
       title: "Sistema de Dados Governamentais",
       client: "Ministério dos Transportes",
       description: "Desenvolvimento completo de sistema integrado para gestão de dados governamentais com múltiplas integrações críticas.",
