@@ -8,10 +8,7 @@ const Contact = () => {
       <div className="container px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="font-display mb-4 text-white">Vamos Conversar?</h2>
-            <p className="text-xl text-white/90">
-              Aberta a novas oportunidades em empresas de tecnologia que valorizam metodologias ágeis
-            </p>
+            
           </div>
 
           <Card className="p-8 md:p-12 bg-white/95 backdrop-blur-sm">
@@ -105,17 +102,7 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="p-6 bg-muted/50 rounded-lg">
-                  <h4 className="font-semibold mb-3">Disponibilidade</h4>
-                  <p className="text-sm text-muted-foreground mb-4">
-                    Disponível para oportunidades remotas ou híbridas. 
-                    Aberta a realocação para grandes centros tecnológicos.
-                  </p>
-                  <Button className="w-full gradient-primary border-0 text-white" size="lg">
-                    <Mail className="mr-2 h-5 w-5" />
-                    Enviar Mensagem
-                  </Button>
-                </div>
+                
               </div>
             </div>
 
