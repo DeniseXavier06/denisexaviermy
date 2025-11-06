@@ -43,10 +43,10 @@ const Experience = () => {
       description: "Foco em Governança Ágil em TIC"
     },
     {
-      degree: "Especialização em Gestão de Projetos",
-      institution: "UniRios",
-      period: "2011 - 2012",
-      description: "Gestão de Projetos e Metodologias Ágeis"
+      degree: "Especialização em Banco de Dados",
+      institution: "– Universidade Federal de Sergipe (UFS)",
+      period: "2012 - 2013",
+      description: "Gerenciamento de Bancos de Dados e Metodologias Ágeis"
     },
     {
       degree: "Bacharelado em Sistemas de Informação",
