@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
- "homepage": "https://github.com/DeniseXavier06/denisexaviermy.git",
+ "homepage": "https://denisexavier06.github.io/denisexaviermy",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
