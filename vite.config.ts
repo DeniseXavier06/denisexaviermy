@@ -3,9 +3,11 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
+const isGitHubPages = process.env.GITHUB_PAGES === "true";
+
 // https://vitejs.dev/config/
-export default defineConfig(({ command }) => ({
-  
+export default defineConfig({
+   base: isGitHubPages ? "/denisexaviermy/" : "/",
   plugins: [react()],
   resolve: {
     alias: {
@@ -16,4 +18,4 @@ export default defineConfig(({ command }) => ({
     host: "::",
     port: 8080,
   },
-}));
+});
