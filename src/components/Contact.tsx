@@ -65,7 +65,7 @@ const Contact = () => {
                   
                   <div className="space-y-4">
                     <a 
-                      href="https://www.linkedin.com/in/denise-xavier-66a372117"
+                      href="https://www.linkedin.com/in/denise-xavier-66a372117/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-between p-4 rounded-lg bg-primary/5 hover:bg-primary/10 transition-smooth group"

@@ -71,7 +71,7 @@ const Hero = () => {
             {/* Social Links */}
             <div className="flex gap-4 pt-4">
               <a 
-                href="https://www.linkedin.com/in/denise-xavier-66a372117"
+                href="https://www.linkedin.com/in/denise-xavier-66a372117/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 hover:bg-white/20 hover:border-white/40 transition-smooth"
