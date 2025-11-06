@@ -6,9 +6,10 @@ import { componentTagger } from "lovable-tagger";
 const isGitHubPages = process.env.GITHUB_PAGES === "true";
 
 // https://vitejs.dev/config/
-export default defineConfig({
-   base: isGitHubPages ? "/denisexaviermy/" : "/",
+export default defineConfig(({ command }) => ({
+ 
   plugins: [react()],
+  base: command === "build" ? "/denisexaviermy/" : "/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
@@ -18,4 +19,4 @@ export default defineConfig({
     host: "::",
     port: 8080,
   },
-});
+}));
